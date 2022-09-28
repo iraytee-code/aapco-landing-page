@@ -1,9 +1,13 @@
-import {React, Fragment} from 'react'
+import {React, Fragment} from 'react';
+import logo from "../../assets/images/logo-white.png";
 
 const NavBar = () => {
   return (
 <Fragment>
-    FFFJFJFKJFK
+   <div className='bg-navbg text-primaryText'>
+<div><img src={logo}/></div>
+<div></div>
+   </div>
 </Fragment>
   )
 }

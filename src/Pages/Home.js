@@ -1,11 +1,12 @@
 
 import React, { Fragment} from 'react';
-import { NavBar } from '../components';
+import { Banner, NavBar } from '../Components';
 
 const Home = () => {
   return (
 <Fragment>
 <NavBar/>
+<Banner/>
 </Fragment>
   )
 }

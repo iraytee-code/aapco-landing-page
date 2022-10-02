@@ -4,6 +4,7 @@ import { NavBar} from '../Components';
 import { Banner} from '../Components';
 import { Count } from '../Components';
 import { Card } from '../Components';
+import { About } from '../Components';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
 <Banner/>
 <Count/>
 <Card/>
+<About/>
 </Fragment>
   )
 }

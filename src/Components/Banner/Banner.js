@@ -4,8 +4,8 @@ import bannerImg from "../../Assets/images/banner_img.png";
 const Banner = () => {
   return (
     <Fragment>
-      <div className="Banner flex flex-col justify-between items-center md:flex-row py-5 px-6 text-sm xl:px-navx xl: px-15rem relative md:h-[85vh]">
-        <div className="text-white z-20 sm:w-[80%] max-w-[540px] md:w-[600px] leading-7">
+      <div className="Banner pt-5 pb-8 flex flex-col justify-between items-start md:flex-row  px-6 text-sm xl:px-navx xl: px-15rem relative md:h-[80vh] lg:h-[98vh]">
+        <div className="text-white z-20 sm:w-[80%] max-w-[540px] md:w-[600px] leading-7  mt-7 lg:mt-20 col-12 md:col-6">
           <div>
             <p className="font-thick text-lg">CUSTOMER FIRST PROIRITY</p>
             <h1 className="font-bold text-4xl md:text-5xl pb-4 pt-1">
@@ -13,7 +13,7 @@ const Banner = () => {
             </h1>
             <p className="font-thick text-lg leading-10">
               Quickly morph client-centric results through performance based
-              applications. Proactively facilitate professional human capital
+              applications. Proactively facilitate professional human capital 
               for cutting-edge.
             </p>
           </div>
@@ -24,7 +24,7 @@ const Banner = () => {
           </div>
         </div>
         <div>
-          <div className=" sm:w-[80%] max-w-[450px] z-20 relative md:w-[350px] lg:w-[450px]">
+          <div className=" sm:w-[80%] max-w-[400px] z-20 relative md:w-[350px] lg:w-[400px] pt-3 col-12 md:col-6">
             <img src={bannerImg} alt="banner img" />
           </div>
         </div>

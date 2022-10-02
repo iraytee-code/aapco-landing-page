@@ -26,6 +26,8 @@ module.exports = {
       danger: "#dc3545",
       light: "#f8f9fa",
       dark: "#343a40",
+      bdColor: "#ebebeb",
+      white: "#ffffff",
     },
     extend: {
       padding: {
@@ -36,7 +38,10 @@ module.exports = {
         heroImage: "url('./src/Assets/images/hero-bg-1.jpg')",
       },
       fontWeight: {
-     thick: "2rem",
+        thick: "2rem",
+      },
+      fontSize: {
+        textb: "25px",
       },
     },
   },

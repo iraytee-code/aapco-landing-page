@@ -5,6 +5,8 @@ import { Banner} from '../Components';
 import { Count } from '../Components';
 import { Card } from '../Components';
 import { About } from '../Components';
+import { Feature } from '../Components';
+import {Applink}  from '../Components';
 
 
 const Home = () => {
@@ -15,6 +17,8 @@ const Home = () => {
 <Count/>
 <Card/>
 <About/>
+<Feature/>
+<Applink/>
 </Fragment>
   )
 }

@@ -5,10 +5,10 @@ import {BsFillCheckSquareFill} from 'react-icons/bs';
 const About = () => {
   return (
    <Fragment>
-    <div className='grid gird-cols-1 lg:grid-cols-2 px-2 md:px-6 xl:px-navx pb-20'>
-        <div className=''>
+    <div className=' bg-Aboutbg grid gird-cols-1 lg:grid-cols-2 px-2 py-10 md:px-6 xl:px-navx lg:py-30'>
+        <div className='py-2 lg:py-5'>
             <div>
-                <h2 className='text-indigo font-semibold py-2 text-lg'>ABOUT OUR APP</h2>
+                <h2 className='text-indigo font-semibold pb-3 text-lg'>ABOUT OUR APP</h2>
                 <p className='text-2xl sm:text-3xl md:text-4xl font-[700] pb-4'>Deliver your Product Using
                 <br/> AppCo</p>
                 <p className='text-gray leading-7 pb-10'>Quick has all the right tools in order to make your 
@@ -26,8 +26,8 @@ const About = () => {
             </div>
         </div>
 
-        <div>
-<div className='flex justify-start lg:justify-end'>
+        <div className='py-2 lg:py-5'>
+<div className=' flex justify-start lg:justify-end'>
     <img src={AboutImage} alt="about img" className='w-[350px] sm:w-[50%] lg:w-[70%]'/></div>
         </div>
     </div>

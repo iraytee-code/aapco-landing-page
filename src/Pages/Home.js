@@ -7,6 +7,7 @@ import { Card } from '../Components';
 import { About } from '../Components';
 import { Feature } from '../Components';
 import {Applink}  from '../Components';
+import {Pricing}  from '../Components';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
 <About/>
 <Feature/>
 <Applink/>
+<Pricing/>
 </Fragment>
   )
 }

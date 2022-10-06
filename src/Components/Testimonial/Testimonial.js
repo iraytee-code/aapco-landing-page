@@ -11,8 +11,8 @@ const Testimonial = () => {
   return (
     <Fragment>
       <div className=" py-20 md:flex justify-betwee items-end gap-10 px-2 md:px-6 lg:px-36">
-        <div className="my-10">
-          <h2 className="text-indigo font-semibold pb-2 text-lg">
+        <div className="my-10 pb-10">
+          <h2 className="text-indigo font-semibold pb-7 text-lg">
             OUR TRUSTED CLIENTS
           </h2>
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-[700] pb-4">

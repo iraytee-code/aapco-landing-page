@@ -8,7 +8,8 @@ import {
   Feature,
   Applink,
   Pricing,
-  Testimonial
+  Testimonial,
+  Carousel
 } from "../Components";
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <Applink />
       <Pricing />
       <Testimonial/>
+      <Carousel/>
     </Fragment>
   );
 };

@@ -10,3 +10,4 @@ export { default as StatisticsCard } from "./Utilities/StatisticsCard";
 export {default as FeatureCard} from "./Utilities/FeatureCard";
 export {default as PricingCard} from "./Utilities/PricingCard"
 export {default as Testimonial} from "./Testimonial/Testimonial";
+export {default as Carousel} from "./Carousel/Carousel";

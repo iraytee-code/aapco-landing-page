@@ -35,10 +35,10 @@ Modular and interchangable componente between layouts and even demos.
 </p></div></li>
 </ul>
 <div>
-    <img src={FeatureImg} alt="feature-img"/>
+    <img src={FeatureImg} alt="feature-img" className='lg: w-[500px]'/>
 </div>
 
-<ul className='list-none py-10'>
+<ul className='list-none py-10 '>
 <li className='flex justify-between items-start py-7'><div className='pr-5'><div className='bg-teal200 w-12 h-12 rounded-full flex justify-center items-center'><BsCardChecklist fill='teal' size='20'/></div></div><div className='pr-5'><h3 className='font-bold text-1xl md:text-2xl'>
 Free updates forever</h3><p className='text-gray pt-5'>
 Modular and interchangable componente between layouts and even demos.</p></div></li>

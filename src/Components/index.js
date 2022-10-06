@@ -8,4 +8,5 @@ export { default as Applink } from "./Applink/Applink";
 export { default as Pricing } from "./Pricing/Pricing";
 export { default as StatisticsCard } from "./Utilities/StatisticsCard";
 export {default as FeatureCard} from "./Utilities/FeatureCard";
+export {default as PricingCard} from "./Utilities/PricingCard"
 export {default as Testimonial} from "./Testimonial/Testimonial";

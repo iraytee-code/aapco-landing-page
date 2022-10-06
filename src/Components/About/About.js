@@ -5,7 +5,7 @@ import {BsFillCheckSquareFill} from 'react-icons/bs';
 const About = () => {
   return (
    <Fragment>
-    <div className=' bg-Aboutbg grid gird-cols-1 lg:grid-cols-2 px-2 py-10 md:px-6 xl:px-navx lg:py-30'>
+    <div className=' bg-Aboutbg grid gird-cols-1 lg:grid-cols-2 px-2 py-10 md:px-6 lg:px-36 lg:py-30'>
         <div className='py-2 lg:py-5'>
             <div>
                 <h2 className='text-indigo font-semibold pb-3 text-lg'>ABOUT OUR APP</h2>

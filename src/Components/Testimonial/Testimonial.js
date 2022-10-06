@@ -10,7 +10,7 @@ import {MdOutlineKeyboardArrowRight} from 'react-icons/md';
 const Testimonial = () => {
   return (
     <Fragment>
-      <div className=" py-20 md:flex justify-betwee items-end gap-10 px-2 md:px-6 xl:px-navx">
+      <div className=" py-20 md:flex justify-betwee items-end gap-10 px-2 md:px-6 lg:px-36">
         <div className="my-10">
           <h2 className="text-indigo font-semibold pb-2 text-lg">
             OUR TRUSTED CLIENTS

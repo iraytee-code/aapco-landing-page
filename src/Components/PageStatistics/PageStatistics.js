@@ -7,7 +7,7 @@ const PageStatistics = () => {
 
   return (
     <Fragment>
-      <div className="bg-white rounded-md text-center py-10 drop-shadow-md md:flex md:w-[600px] md:mx-auto lg:w-[1000px] md:-mt-12 md:items-center md:justify-around">
+      <div className="bg-white rounded-md text-center py-10 drop-shadow-md md:flex md:w-[600px] md:mx-auto lg:w-[1000px] md:-mt-12 md:items-center md:justify-around lg:px-36">
         {/* {data?.pageStatistics.map((item) => {
           return (
             <StatisticsCard

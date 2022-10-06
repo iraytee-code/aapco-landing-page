@@ -8,7 +8,7 @@ import { FeatureCard } from "../../Components";
 const KeyFeature = () => {
   return (
     <Fragment>
-      <div className="px-2 md:px-6 xl:px-navx pb-20 md:mt-20 md:pb-30">
+      <div className="px-2 md:px-6 lg:px-36 pb-20 md:mt-20 md:pb-30">
         <div>
           <h3 className="text-indigo font-semibold py-2">KEY FEATURES</h3>
           <p className="text-2xl pb-20 sm:text-3xl md:text-4xl font-[700]">

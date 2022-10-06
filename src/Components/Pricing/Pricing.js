@@ -7,7 +7,7 @@ import { PricingCard } from "../../Components";
 const Pricing = () => {
   return (
     <Fragment>
-      <div className="px-2 md:px-6 xl:px-navx">
+      <div className="px-2 md:px-6 lg:px-36">
         <div className="text-center py-10 md: px-20">
           <h2 className="text-indigo font-semibold py-2">
             OUR PRICING PACKAGE

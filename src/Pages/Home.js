@@ -3,11 +3,12 @@ import {
   PageStatistics,
   NavBar,
   Banner,
-  Card,
+  KeyFeature,
   About,
   Feature,
   Applink,
   Pricing,
+  Testimonial
 } from "../Components";
 
 const Home = () => {
@@ -16,11 +17,12 @@ const Home = () => {
       <NavBar />
       <Banner />
       <PageStatistics />
-      <Card />
+      <KeyFeature />
       <About />
       <Feature />
       <Applink />
       <Pricing />
+      <Testimonial/>
     </Fragment>
   );
 };

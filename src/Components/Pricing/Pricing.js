@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
-import basic from  '../../Assets/images/basic.svg';
-import standard from '../../Assets/images/standard.svg';
-import unlimited from '../../Assets/images/unlimited.svg';
+// import basic from "../../Assets/images/basic.svg";
+// import standard from "../../Assets/images/standard.svg";
+// import unlimited from "../../Assets/images/unlimited.svg";
+import { PricingCard } from "../../Components";
 
 const Pricing = () => {
   return (
@@ -22,7 +23,39 @@ const Pricing = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-5 pb-20">
-          <div className="rounded-2xl hover:text-indigo text-white flex flex-col justify-between items-center shadow-lg p-10 border-t-4 hover:rounded-3xl w-[90]">
+          <PricingCard
+            title="basic"
+            // image="{basic}"
+            description="   5 Users access same time Integrated eCommerce Customization
+          interface Weekly updated 24/7 Phone Support Event Analytics"
+            price="$29"
+          />
+          
+          <PricingCard
+            title="standard"
+            // image="{basic}"
+            description="  10 Users access same time
+            Integrated eCommerce
+            Customization interface
+            Daily updated
+            24/7 Phone Support
+            Event Analytics"
+            price="$145"
+          />
+          
+          <PricingCard
+            title="Unlimited"
+            // image="{basic}"
+            description=" 20 Users access same time
+            Integrated eCommerce
+            Fully Customization interface
+            Free updated
+            24/7 Phone Support
+            Event Analytics"
+            price="$249"
+          />
+
+          {/* <div className="rounded-2xl hover:text-indigo text-white flex flex-col justify-between items-center shadow-lg p-10 border-t-4 hover:rounded-3xl w-[90]">
             <h2 className="text-2xl md:text-3xl bold pb-5 text-indigo">Basic</h2>
             <div className="w-[65px] pb-5"><img src={basic} alt='basic'/></div>
             <p className="w-50 h-30 text-gray leading-7 text-center">
@@ -58,12 +91,13 @@ const Pricing = () => {
             <div>
             <button className="w-[140px] h-[50px] border-2 text-indigo hover:text-white hover:bg-indigo px-4 py-2 bg-white rounded-full">Purchase now</button>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="text-center">
           <p className="text-gray">
-            If you need custom services or Need more? <span className="text-xl text-indigo"> Contact us</span>
+            If you need custom services or Need more?{" "}
+            <span className="text-xl text-indigo"> Contact us</span>
           </p>
         </div>
       </div>

@@ -4,7 +4,7 @@ import bannerImg from "../../Assets/images/banner_img.png";
 const Banner = () => {
   return (
     <Fragment>
-      <div className="Banner pt-5 pb-8 flex flex-col justify-between items-start md:flex-row  px-6 text-sm xl:px-navx xl: px-15rem relative md:h-[80vh] lg:h-[110vh]">
+      <div className="Banner pt-5 pb-8 flex flex-col justify-between items-start md:flex-row  px-6 text-sm lg:px-36 xl: px-15rem relative md:h-[80vh] lg:h-[110vh]">
         <div className="text-white z-20 sm:w-[80%] max-w-[540px] md:w-[600px] leading-7  mt-7 lg:mt-20 col-12 md:col-6">
           <div>
             <p className="font-thick text-lg">CUSTOMER FIRST PROIRITY</p>

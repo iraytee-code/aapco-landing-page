@@ -11,7 +11,7 @@ const Feature = () => {
   return (
 
     <Fragment>
-    <div className="px-2 md:px-6 xl:px-navx pb-20 md:mt-20 md:pb-30">
+    <div className="px-2 md:px-6 lg:px-36 pb-20 md:mt-20 md:pb-30">
 <div className='text-center'>
     <h3 className='text-indigo font-semibold pb-3 text-lg'>BEST FEATURES</h3>
     <h2 className='text-2xl sm:text-3xl md:text-4xl font-[700] pb-4'>Easy Process with Best Features</h2>

@@ -3,11 +3,11 @@ import {
   PageStatistics,
   NavBar,
   Banner,
-  Card,
   About,
   Feature,
   Applink,
   Pricing,
+  Features,
 } from "../Components";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
       <NavBar />
       <Banner />
       <PageStatistics />
-      <Card />
+      <Features />
       <About />
       <Feature />
       <Applink />

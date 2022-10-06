@@ -8,16 +8,6 @@ const PageStatistics = () => {
   return (
     <Fragment>
       <div className="bg-white rounded-md text-center py-10 drop-shadow-md md:flex md:w-[600px] md:mx-auto lg:w-[1000px] md:-mt-12 md:items-center md:justify-around">
-        {/* {data?.pageStatistics.map((item) => {
-          return (
-            <StatisticsCard
-              units={item.value}
-              label={item.label}
-              key={item.id}
-              hope={item.hope}
-            />
-          );
-        })} */}
         {data?.pageStatistics?.map((item, index) => {
           return (
             <StatisticsCard

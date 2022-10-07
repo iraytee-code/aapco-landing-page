@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-// import basic from "../../Assets/images/basic.svg";
-// import standard from "../../Assets/images/standard.svg";
-// import unlimited from "../../Assets/images/unlimited.svg";
+import basic from "../../Assets/images/basic.svg";
+import standard from "../../Assets/images/standard.svg";
+import unlimited from "../../Assets/images/unlimited.svg";
 import { PricingCard } from "../../Components";
 
 const Pricing = () => {
@@ -12,7 +12,7 @@ const Pricing = () => {
           <h2 className="text-indigo font-semibold py-2">
             OUR PRICING PACKAGE
           </h2>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-[700] pb-4'">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-[700] pb-4">
             Affordable Pricing and Packages Choose your Best One
           </h1>
           <p className="text-gray leading-7">
@@ -25,7 +25,7 @@ const Pricing = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-5 pb-20">
           <PricingCard
             title="basic"
-            // image="{basic}"
+            image={basic}
             description="   5 Users access same time Integrated eCommerce Customization
           interface Weekly updated 24/7 Phone Support Event Analytics"
             price="$29"
@@ -33,7 +33,7 @@ const Pricing = () => {
           
           <PricingCard
             title="standard"
-            // image="{basic}"
+            image={standard}
             description="  10 Users access same time
             Integrated eCommerce
             Customization interface
@@ -45,7 +45,7 @@ const Pricing = () => {
           
           <PricingCard
             title="Unlimited"
-            // image="{basic}"
+            image={unlimited}
             description=" 20 Users access same time
             Integrated eCommerce
             Fully Customization interface

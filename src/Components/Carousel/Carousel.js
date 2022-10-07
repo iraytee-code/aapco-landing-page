@@ -9,7 +9,7 @@ import imgCarousel_6 from '../../Assets/images/06.png';
 const Carousel = () => {
   return (
     <Fragment>
-   <div>
+   <div className='px-2 md:px-6 lg:px-36'>
 
    <div className='text-center pb-10'>
             <div className='text-indigo font-semibold py-2'>APP SCREENSHOTS</div>

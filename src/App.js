@@ -3,9 +3,9 @@ import Home from './Pages/Home';
 
 function App() {
   return (
-    <Fragment>
+  <Fragment>
   <Home/>
-    </Fragment>
+  </Fragment>
   );
 }
 

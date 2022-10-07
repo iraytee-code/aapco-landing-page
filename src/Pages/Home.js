@@ -9,22 +9,24 @@ import {
   Applink,
   Pricing,
   Testimonial,
-  Carousel
+  Carousel,
+  Blog
 } from "../Components";
 
 const Home = () => {
   return (
     <Fragment>
-      <NavBar />
-      <Banner />
-      <PageStatistics />
-      <KeyFeature />
-      <About />
-      <Feature />
+      <NavBar/>
+      <Banner/>
+      <PageStatistics/>
+      <KeyFeature/>
+      <About/>
+      <Feature/>
       <Applink />
-      <Pricing />
+      <Pricing/>
       <Testimonial/>
       <Carousel/>
+      <Blog/>
     </Fragment>
   );
 };

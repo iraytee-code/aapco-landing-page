@@ -6,7 +6,7 @@ import {BsFillCaretDownFill} from 'react-icons/bs';
 const NavBar = () => {
   return (
 <Fragment>
-<div className='bg-navbg text-primaryText flex text-center  justify-between items-center px-2 py-6 md:px-6 text-sm lg:px-36sticky top-0 z-30 lg:px-36'>
+<div className='bg-navbg text-primaryText flex text-center  justify-between items-center px-2 py-6 md:px-6 text-sm lg:px-36 sticky top-0 z-30'>
 <div className='w-[7rem] cursor-pointer'><img src={logo} alt="logo"/></div>
 <div className='sm:flex lg:hidden cursor-pointer'><AiOutlineBars fill='#ffffff' size='25'/></div>
 <div className='sm:hidden lg:flex hidden'>

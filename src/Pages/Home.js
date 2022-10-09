@@ -10,7 +10,8 @@ import {
   Pricing,
   Testimonial,
   Carousel,
-  Blog
+  Accordion,
+  Blog,
 } from "../Components";
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
       <Pricing/>
       <Testimonial/>
       <Carousel/>
+      <Accordion/>
       <Blog/>
     </Fragment>
   );

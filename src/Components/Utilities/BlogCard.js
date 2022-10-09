@@ -13,11 +13,11 @@ export const BlogCard = ({
   return (
     <Fragment>
       <div className=" w-[90%] mx-auto shadow-xl lg:w-[30%] cursor-pointer relative mb-10">
-        <div className="h-[300px]">
+        <div className="">
           <img src={image}  alt='cardimage'/>
         </div>
         <div className="p-5 md:p-7">
-          <div className="flex justify-start items-center text-gray gap-4 text-xs lg:text-sm">
+          <div className="flex justify-start items-center text-gray gap-4 text-xs">
             {" "}
             <div>{date}</div> <div>{comment}</div> <div>{share}</div>
           </div>

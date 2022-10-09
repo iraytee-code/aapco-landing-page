@@ -5,7 +5,7 @@ const PricingCard = ({ title, image, description, price }) => {
     <Fragment>
       <div className="rounded-2xl hover:text-indigo text-white flex flex-col justify-between items-center shadow-lg p-10 border-t-4 hover:rounded-3xl w-[90]">
         <h2 className="text-2xl md:text-3xl font-bold pb-5 text-black">{title}</h2>
-        <div className="w-[65px] pb-5"><img src={image}/></div>
+        <div className="w-[65px] pb-5"><img src={image} alt="cardimg"/></div>
         <p className="w-50 h-30 text-gray leading-7 text-center">
           {description}
         </p>

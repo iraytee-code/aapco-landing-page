@@ -13,3 +13,5 @@ export {default as Testimonial} from "./Testimonial/Testimonial";
 export {default as Carousel} from "./Carousel/Carousel";
 export {default as Blog} from "./Blog/Blog";
 export {default as BlogCard} from "./Utilities/BlogCard";
+export {default as Accordion} from "./Accodion/Accordion"
+export {default as AccordionComponent} from "./Utilities/AccordionComponent";

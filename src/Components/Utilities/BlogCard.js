@@ -9,16 +9,15 @@ export const BlogCard = ({
   title,
   description,
   tag,
-  bgColor,
 }) => {
   return (
     <Fragment>
-      <div className="shadow-xl lg:w-[30%] cursor-pointer relative">
-        <div>
-          <img src={image} />
+      <div className=" w-[90%] mx-auto shadow-xl lg:w-[30%] cursor-pointer relative mb-10">
+        <div className="h-[300px]">
+          <img src={image}  alt='cardimage'/>
         </div>
         <div className="p-5 md:p-7">
-          <div className="flex justify-start items-center text-gray gap-4 text-sm">
+          <div className="flex justify-start items-center text-gray gap-4 text-xs lg:text-sm">
             {" "}
             <div>{date}</div> <div>{comment}</div> <div>{share}</div>
           </div>
@@ -32,8 +31,7 @@ export const BlogCard = ({
           </div>
         </div>
         <div
-          className={`${bgColor}+ w-20 text-center text-sm rounded-lg font-bold text-white absolute top-2 right-5`}
-        >
+          className="w-20 text-center text-sm rounded-lg font-bold text-white absolute top-2 right-4 bg-blue pb-[.1rem]">
           {tag}
         </div>
       </div>

@@ -15,3 +15,9 @@ export {default as Blog} from "./Blog/Blog";
 export {default as BlogCard} from "./Utilities/BlogCard";
 export {default as Accordion} from "./Accodion/Accordion"
 export {default as AccordionComponent} from "./Utilities/AccordionComponent";
+export {default as Team} from "./Team/Team";
+export {default as TeamComponent} from "./Utilities/TeamComponent";
+export {default as Contact} from "./Contact/Contact";
+export {default as ContactComponent} from './Utilities/ContactComponent';
+export {default as Partners} from "./Partners/Partners";
+export {default as PartnerComponent} from "./Utilities/PartnerComponent";

@@ -7,7 +7,7 @@ import { BlogCard } from "../../Components";
 export const Blog = () => {
   return (
     <Fragment>
-      <div className="px-2 md:px-6 lg:px-36">
+      <div className="px-2 md:px-6 lg:px-36 py-10 lg:py-20">
         <div>
           <div className="text-indigo font-semibold py-2">Blog</div>
           <div className="text-2xl sm:text-3xl md:text-4xl font-[700] pb-4">

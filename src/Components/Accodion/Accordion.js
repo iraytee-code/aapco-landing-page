@@ -11,7 +11,7 @@ const Accordion = () => {
     <Fragment>
       <div className="Accordion_container">
       <div className="Accordion ">
-<div className="flex flex-col lg:flex-row justify-between items-start lg:items-center py-10 lg:py-20 px-2  md:px-6 text-sm lg:px-36">
+<div className="flex flex-col lg:flex-row justify-between items-start lg:items-center py-10 lg:py-20 px-2  md:px-6 text-sm lg:px-36 gap-4">
 <div className=" w-[100%] lg:w-[60%] z-20 xl:w-[50%]">
   <AccordionComponent
         title=" Which license do I need?"

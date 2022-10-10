@@ -35,7 +35,8 @@ module.exports = {
       bdColor: "#ebebeb",
       white: "#ffffff",
       Aboutbg: "#f4f7fa",
-      black: "#000000"
+      black: "#000000",
+      lightGrey: "#f4f7fa",
     },
     extend: {
       padding: {

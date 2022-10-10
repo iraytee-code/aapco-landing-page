@@ -12,6 +12,9 @@ import {
   Carousel,
   Accordion,
   Blog,
+  Team,
+  Contact,
+  Partners,
 } from "../Components";
 
 const Home = () => {
@@ -29,6 +32,9 @@ const Home = () => {
       <Carousel/>
       <Accordion/>
       <Blog/>
+      <Team/>
+      <Contact/>
+      <Partners/>
     </Fragment>
   );
 };

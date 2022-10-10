@@ -15,6 +15,7 @@ import {
   Team,
   Contact,
   Partners,
+  Footer,
 } from "../Components";
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
       <Team/>
       <Contact/>
       <Partners/>
+      <Footer/>
     </Fragment>
   );
 };

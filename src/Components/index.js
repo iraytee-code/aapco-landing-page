@@ -21,3 +21,5 @@ export {default as Contact} from "./Contact/Contact";
 export {default as ContactComponent} from './Utilities/ContactComponent';
 export {default as Partners} from "./Partners/Partners";
 export {default as PartnerComponent} from "./Utilities/PartnerComponent";
+export {default as Footer} from "./Footer/Footer";
+export {default as FooterComponent} from "./Utilities/FooterComponent";

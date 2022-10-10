@@ -99,9 +99,9 @@
   vertical-align: middle;
   padding-top: 45%;
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
   transition-timing-function: ease-in-out;
-border-radius: 0.25rem;
+  border-radius: 0.25rem;
 }
 
 .Team-container:hover .member-info {
@@ -109,5 +109,19 @@ border-radius: 0.25rem;
 }
 
 input:focus {
-border: 1px solid indigo !important;
+  border: 1px solid indigo !important;
+}
+
+.app_footer {
+  /* background-color: indigo; */
+  background: url("./Assets/images/footer-bg.png") no-repeat center top / cover;
+}
+
+/* .footer_form{
+  background-image: url('./Assets/images/footer-top-shape.png') no-repeat top center / cover;
+} */
+
+.wave-img {
+  position: absolute;
+  top: -2px;
 }

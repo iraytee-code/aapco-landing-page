@@ -118,10 +118,10 @@ const Footer = () => {
             }
           />
         </div>
-        <div className="flex justify-between items-center text-lightGrey text-sm px-2 md:px-6 lg:px-36">
+        <div className=" md:flex justify-between items-center text-lightGrey text-sm px-2 md:px-6 lg:px-36 py-10">
           <div>© ThemeTags Design Agency, All rights reserved</div>
           <div className="flex">
-            <div>Terms</div> <div>Security</div> <div>Privacy Policy</div>
+            <div><div className="pr-3">Terms</div></div> <div>Security</div> <div className="px-3">Privacy Policy</div>
           </div>
         </div>
       </div>

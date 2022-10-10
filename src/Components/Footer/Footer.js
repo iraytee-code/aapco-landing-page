@@ -18,12 +18,12 @@ const Footer = () => {
         <div className=" wave-img">
           <img src={imgwave} alt="" />
         </div>
-        <div className=" pb-10 text-center bg-tr footer_form">
+        <div className=" hidden md:block pb-10 text-center bg-tr">
           <div className="w-[70%]">
             {" "}
             <input className="absolute rounded-full w-[350px] border-2 text-lightGrey px-2 py-4 lg:w-[470px] lg:px-2 lg:py-5"></input>
             <div className="relative top-3 left-60 lg:left-80  lg:ml-40 text-white">
-              <button className="rounded-full bg-blue px-5 py-3 font-bold">
+              <button className="rounded-full bg-indigo px-5 py-3 font-bold">
                 Subscribe
               </button>
             </div>
@@ -118,10 +118,13 @@ const Footer = () => {
             }
           />
         </div>
-        <div className="flex justify-between items-center text-lightGrey text-sm px-2 md:px-6 lg:px-36">
+        <div className=" md:flex justify-between items-center text-lightGrey text-sm px-2 md:px-6 lg:px-36 py-10">
           <div>© ThemeTags Design Agency, All rights reserved</div>
           <div className="flex">
-            <div>Terms</div> <div>Security</div> <div>Privacy Policy</div>
+            <div>
+              <div className="pr-3">Terms</div>
+            </div>{" "}
+            <div>Security</div> <div className="px-3">Privacy Policy</div>
           </div>
         </div>
       </div>
